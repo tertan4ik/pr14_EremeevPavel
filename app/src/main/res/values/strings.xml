@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Практика 14</string>
+    <string name="button1">Button1</string>
+    <string name="registration_Text">Регистрация</string>
+    <string name="username">Имя пользователя</string>
+    <string name="emailadress">Адресс электронной почты</string>
+    <string name="passwormain">Пароль</string>
+    <string name="settings_text">Настройки</string>
+    <string name="profpolz">Профиль пользователя</string>
+    <string name="strelka"><![CDATA[>]]></string>
+    <string name="checkobnov">Проверить обновления</string>
+    <string name="soundsnastoy">Настройки звука</string>
+    <string name="dataivrema">Дата и время</string>
+    <string name="calendar_text">Календарь</string>
+</resources>

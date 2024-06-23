@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bcolor"
+    android:columnCount="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="30dp"
+
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/calendar_text"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="150dp"
+            android:background="@drawable/icon"
+            android:onClick="but3"
+           />
+
+
+    </LinearLayout>
+
+    <CalendarView
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="40dp"
+        android:accessibilityHeading="true"
+        android:dateTextAppearance="@style/TextSiseLar"
+        android:minDate="01/01/2020"
+        android:selectedWeekBackgroundColor="@color/gray"
+
+        android:theme="@style/CalendarViewCustom"
+        android:weekDayTextAppearance="@style/CalendarViewWeekCustomText"
+        android:weekNumberColor="#F44336"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <LinearLayout
+
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="201dp"
+        android:background="@drawable/rectangle2"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="657dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button"
+            android:onClick="but"
+
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button1"
+            android:onClick="but1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button2"
+            android:onClick="but2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button3"
+            android:onClick="but3" />
+
+    </LinearLayout>
+
+
+</GridLayout>
